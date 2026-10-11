@@ -1,9 +1,6 @@
-# Flesh and Blood life tracker
+# Flesh and Blood Life Tracker
 
-Current compact E1 source snapshot of a personal two-player tabletop life/resource
-counter project. The counter supports selectable 20/40 starting life, undo, reset
-confirmation and resource tracking. It is intended for Flesh and Blood and can also
-be used as a game-neutral counter; no game artwork or logos are included.
+A two-player life and resource counter for Flesh and Blood. This repo contains the compact E1 version: ESP32-S3 firmware, a KiCad carrier board, and host tests. It supports 20 or 40 starting life, undo, reset confirmation, and resource tracking. It can also serve as a general tabletop counter; no game artwork or logos are included.
 
 ## Current hardware and firmware
 
