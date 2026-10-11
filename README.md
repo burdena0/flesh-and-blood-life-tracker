@@ -16,9 +16,3 @@ Read `README.txt` for the exact GPIO map, parts and assembly instructions. Build
 normal-ESP32 and older carrier variants; they are intentionally not mixed into this
 current revision snapshot. Paths in historical prose may refer to those excluded
 variants. Do not substitute their pin maps for the compact S3 board.
-
-## Validation status
-
-This repository preserves the current design and source. PCB/firmware reports describe
-digital verification only. Physical fabrication, assembly, display behavior, battery
-operation and fit require real-device tests and are not claimed here.
