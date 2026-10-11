@@ -1,9 +1,5 @@
 """Refresh assembly and copper PNGs directly from the latest KiCad SVG exports."""
 from pathlib import Path
-import os
-import sys
-
-sys.path.insert(0, str(Path(os.environ['LOCALAPPDATA']) / 'fab-life-cad-runtime'))
 from resvg_py import svg_to_bytes
 
 root = Path(__file__).resolve().parents[1]

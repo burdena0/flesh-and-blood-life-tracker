@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\gamev\Downloads\mtglife\compact-cl3641ah\hardware\counter.kicad_sch</source>
+    <source>.\hardware\counter.kicad_sch</source>
     <date>2026-10-02T17:34:21</date>
     <tool>Eeschema 10.0.4</tool>
     <sheet number="1" name="/" tstamps="/">

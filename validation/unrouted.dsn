@@ -1,4 +1,4 @@
-(pcb "C:\Users\gamev\Downloads\mtglife\compact-cl3641ah\validation\unrouted.dsn"
+(pcb ".\validation\unrouted.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
