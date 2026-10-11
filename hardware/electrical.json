@@ -1,0 +1,1054 @@
+{
+  "sheet_uuid": "48db5950-cb89-450f-ab30-2a9b65b68578",
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "Waveshare ESP32-S3-Zero",
+      "footprint": "Counter:Waveshare_ESP32_S3_Zero_USB_Down",
+      "uuid": "10b832e9-bfe9-45b6-a869-b979f26dcc08",
+      "nets": {
+        "1": "IO43",
+        "2": "IO44",
+        "3": "IO13",
+        "4": "IO12",
+        "5": "IO11",
+        "6": "IO10",
+        "7": "IO9",
+        "8": "IO8",
+        "9": "IO7",
+        "10": "IO6",
+        "11": "IO5",
+        "12": "IO4",
+        "14": "IO2",
+        "15": "IO1",
+        "16": "3V3",
+        "17": "GND"
+      },
+      "pins": {
+        "18": {
+          "name": "VBUS",
+          "type": "passive"
+        },
+        "1": {
+          "name": "IO43",
+          "type": "output"
+        },
+        "17": {
+          "name": "GND",
+          "type": "passive"
+        },
+        "2": {
+          "name": "IO44",
+          "type": "output"
+        },
+        "16": {
+          "name": "3V3",
+          "type": "power_out"
+        },
+        "3": {
+          "name": "IO13",
+          "type": "output"
+        },
+        "15": {
+          "name": "IO1",
+          "type": "output"
+        },
+        "4": {
+          "name": "IO12",
+          "type": "output"
+        },
+        "14": {
+          "name": "IO2",
+          "type": "output"
+        },
+        "5": {
+          "name": "IO11",
+          "type": "input"
+        },
+        "13": {
+          "name": "IO3",
+          "type": "passive"
+        },
+        "6": {
+          "name": "IO10",
+          "type": "input"
+        },
+        "12": {
+          "name": "IO4",
+          "type": "output"
+        },
+        "7": {
+          "name": "IO9",
+          "type": "input"
+        },
+        "11": {
+          "name": "IO5",
+          "type": "output"
+        },
+        "8": {
+          "name": "IO8",
+          "type": "input"
+        },
+        "10": {
+          "name": "IO6",
+          "type": "output"
+        },
+        "9": {
+          "name": "IO7",
+          "type": "output"
+        }
+      }
+    },
+    {
+      "ref": "DS1",
+      "value": "CL3641AH common cathode",
+      "footprint": "Counter:CL3641AH_30x14_P2.54_R10.16",
+      "uuid": "b873883e-d929-4b4f-bb99-3eb7f17ea9c3",
+      "nets": {
+        "11": "SEG_A",
+        "7": "SEG_B",
+        "4": "SEG_C",
+        "2": "SEG_D",
+        "1": "SEG_E",
+        "10": "SEG_F",
+        "5": "SEG_G",
+        "3": "SEG_DP",
+        "12": "DIG1",
+        "9": "DIG2",
+        "8": "DIG3",
+        "6": "DIG4"
+      },
+      "pins": {
+        "7": {
+          "name": "B",
+          "type": "passive"
+        },
+        "6": {
+          "name": "DIG4",
+          "type": "passive"
+        },
+        "8": {
+          "name": "DIG3",
+          "type": "passive"
+        },
+        "5": {
+          "name": "G",
+          "type": "passive"
+        },
+        "9": {
+          "name": "DIG2",
+          "type": "passive"
+        },
+        "4": {
+          "name": "C",
+          "type": "passive"
+        },
+        "10": {
+          "name": "F",
+          "type": "passive"
+        },
+        "3": {
+          "name": "DP",
+          "type": "passive"
+        },
+        "11": {
+          "name": "A",
+          "type": "passive"
+        },
+        "2": {
+          "name": "D",
+          "type": "passive"
+        },
+        "12": {
+          "name": "DIG1",
+          "type": "passive"
+        },
+        "1": {
+          "name": "E",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "SN74HC595N 3V3",
+      "footprint": "Package_DIP:DIP-16_W7.62mm",
+      "uuid": "f14a060b-ef98-4e52-8a7d-bf13a87959bb",
+      "nets": {
+        "15": "DRV_A",
+        "1": "DRV_B",
+        "2": "DRV_C",
+        "3": "DRV_D",
+        "4": "DRV_E",
+        "5": "DRV_F",
+        "6": "DRV_G",
+        "7": "DRV_DP",
+        "8": "GND",
+        "10": "3V3",
+        "11": "IO1",
+        "12": "IO2",
+        "13": "GND",
+        "14": "IO43",
+        "16": "3V3"
+      },
+      "pins": {
+        "1": {
+          "name": "QB",
+          "type": "output"
+        },
+        "2": {
+          "name": "QC",
+          "type": "output"
+        },
+        "3": {
+          "name": "QD",
+          "type": "output"
+        },
+        "4": {
+          "name": "QE",
+          "type": "output"
+        },
+        "5": {
+          "name": "QF",
+          "type": "output"
+        },
+        "6": {
+          "name": "QG",
+          "type": "output"
+        },
+        "7": {
+          "name": "QH",
+          "type": "output"
+        },
+        "8": {
+          "name": "GND",
+          "type": "passive"
+        },
+        "9": {
+          "name": "QH_SERIAL",
+          "type": "output"
+        },
+        "10": {
+          "name": "SRCLR_N",
+          "type": "input"
+        },
+        "11": {
+          "name": "SRCLK",
+          "type": "input"
+        },
+        "12": {
+          "name": "RCLK",
+          "type": "input"
+        },
+        "13": {
+          "name": "OE_N",
+          "type": "input"
+        },
+        "14": {
+          "name": "SER",
+          "type": "input"
+        },
+        "15": {
+          "name": "QA",
+          "type": "output"
+        },
+        "16": {
+          "name": "VCC",
+          "type": "power_in"
+        }
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "30fb0e55-43af-4e95-b4d3-32d0b7acd369",
+      "nets": {
+        "1": "DRV_A",
+        "2": "SEG_A"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "8f3a48d0-e391-48f8-8928-70923a01f530",
+      "nets": {
+        "1": "DRV_B",
+        "2": "SEG_B"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "57a7b5d1-4b79-4ad5-9b30-1909fb81d9a8",
+      "nets": {
+        "1": "DRV_C",
+        "2": "SEG_C"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "bc099da8-9610-4129-b685-8ba78789f763",
+      "nets": {
+        "1": "DRV_D",
+        "2": "SEG_D"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "8331f9ca-8a2c-48c9-ba2d-379c5b29dd4e",
+      "nets": {
+        "1": "DRV_E",
+        "2": "SEG_E"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "14cc06dd-8acf-4230-879b-327bd66d138a",
+      "nets": {
+        "1": "DRV_F",
+        "2": "SEG_F"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "ddf46ac8-54fb-471c-a09e-5a7a299fccd0",
+      "nets": {
+        "1": "DRV_G",
+        "2": "SEG_G"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "72ff034c-5dd3-4dcb-8290-306af786d5e5",
+      "nets": {
+        "1": "DRV_DP",
+        "2": "SEG_DP"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "4cdbca45-3572-4645-9fe3-d20792c2ffb9",
+      "nets": {
+        "1": "IO4",
+        "2": "BASE1"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "Q1",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+      "uuid": "ffd0bc0c-db7e-43ab-8610-af6c3a0ee116",
+      "nets": {
+        "1": "GND",
+        "2": "BASE1",
+        "3": "DIG1"
+      },
+      "pins": {
+        "1": {
+          "name": "E",
+          "type": "passive"
+        },
+        "2": {
+          "name": "B",
+          "type": "passive"
+        },
+        "3": {
+          "name": "C",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "5d3e37fb-b71d-46d2-87b6-781a290ffc94",
+      "nets": {
+        "1": "BASE1",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R17",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "01102c21-6dde-4290-bd5d-5fc621d75312",
+      "nets": {
+        "1": "3V3",
+        "2": "IO8"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "98c74af4-5f16-4c9d-a45e-dbd9bbe83a72",
+      "nets": {
+        "1": "IO5",
+        "2": "BASE2"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "Q2",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+      "uuid": "27feb125-0a60-4714-aead-e24ae5096f7a",
+      "nets": {
+        "1": "GND",
+        "2": "BASE2",
+        "3": "DIG2"
+      },
+      "pins": {
+        "1": {
+          "name": "E",
+          "type": "passive"
+        },
+        "2": {
+          "name": "B",
+          "type": "passive"
+        },
+        "3": {
+          "name": "C",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "766c3933-61a7-416e-9912-8cb5a6bf657d",
+      "nets": {
+        "1": "BASE2",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "fa986127-0460-4eeb-bc08-9f8908dc56aa",
+      "nets": {
+        "1": "3V3",
+        "2": "IO9"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "685df71e-d98e-4258-b15a-7438f3fcfd39",
+      "nets": {
+        "1": "IO6",
+        "2": "BASE3"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "Q3",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+      "uuid": "0908ef9a-0931-4225-8598-8648bfc12fb4",
+      "nets": {
+        "1": "GND",
+        "2": "BASE3",
+        "3": "DIG3"
+      },
+      "pins": {
+        "1": {
+          "name": "E",
+          "type": "passive"
+        },
+        "2": {
+          "name": "B",
+          "type": "passive"
+        },
+        "3": {
+          "name": "C",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "20a9359b-6385-43bd-8164-5f62ed0fc6fc",
+      "nets": {
+        "1": "BASE3",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R19",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "8307391b-9876-445f-8b33-6555204e525d",
+      "nets": {
+        "1": "3V3",
+        "2": "IO10"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "af09fb77-5f4a-49d7-8042-4c19db2b8ca2",
+      "nets": {
+        "1": "IO7",
+        "2": "BASE4"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "Q4",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+      "uuid": "1e8b7410-916d-4cb0-a1d9-51ae1cfb6249",
+      "nets": {
+        "1": "GND",
+        "2": "BASE4",
+        "3": "DIG4"
+      },
+      "pins": {
+        "1": {
+          "name": "E",
+          "type": "passive"
+        },
+        "2": {
+          "name": "B",
+          "type": "passive"
+        },
+        "3": {
+          "name": "C",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "e1fd8a55-bc20-4ce6-bf5e-790c9c766f5e",
+      "nets": {
+        "1": "BASE4",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R20",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "uuid": "951b4855-d365-46ad-a738-79cea63b5e1a",
+      "nets": {
+        "1": "3V3",
+        "2": "IO11"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "SW1",
+      "value": "MINUS two-prong",
+      "footprint": "Counter:Switch_2wire_2.54_or_5.08",
+      "uuid": "38e7c40d-d6ac-47a0-bc42-7ab6ea417b1a",
+      "nets": {
+        "1": "IO8",
+        "2": "GND"
+      },
+      "pins": {
+        "2": {
+          "name": "2",
+          "type": "passive"
+        },
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "SW2",
+      "value": "SELECT two-prong",
+      "footprint": "Counter:Switch_2wire_2.54_or_5.08",
+      "uuid": "f61f175d-aabf-428d-a9c9-cb5a79fd49fc",
+      "nets": {
+        "1": "IO9",
+        "2": "GND"
+      },
+      "pins": {
+        "2": {
+          "name": "2",
+          "type": "passive"
+        },
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "SW3",
+      "value": "PLUS two-prong",
+      "footprint": "Counter:Switch_2wire_2.54_or_5.08",
+      "uuid": "a11fbf29-1c57-4a23-833a-c99643435995",
+      "nets": {
+        "1": "IO10",
+        "2": "GND"
+      },
+      "pins": {
+        "2": {
+          "name": "2",
+          "type": "passive"
+        },
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "SW4",
+      "value": "RESOURCE two-prong",
+      "footprint": "Counter:Switch_2wire_2.54_or_5.08",
+      "uuid": "9a6e46b8-5e82-45eb-8580-47a8b377a07c",
+      "nets": {
+        "1": "IO11",
+        "2": "GND"
+      },
+      "pins": {
+        "2": {
+          "name": "2",
+          "type": "passive"
+        },
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "D1",
+      "value": "RED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "uuid": "e0e93951-994b-464c-94db-ef512456eaab",
+      "nets": {
+        "1": "GND",
+        "2": "LED1_A"
+      },
+      "pins": {
+        "1": {
+          "name": "K",
+          "type": "passive"
+        },
+        "2": {
+          "name": "A",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R21",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical",
+      "uuid": "0a134e3f-72c8-481d-8079-a0346fcc6b04",
+      "nets": {
+        "1": "IO12",
+        "2": "LED1_A"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "D2",
+      "value": "RED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "uuid": "c5afa0f2-3015-4dc0-a549-79cdf3029129",
+      "nets": {
+        "1": "GND",
+        "2": "LED2_A"
+      },
+      "pins": {
+        "1": {
+          "name": "K",
+          "type": "passive"
+        },
+        "2": {
+          "name": "A",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R22",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical",
+      "uuid": "9f90d5d7-0ab6-4a43-93f9-e8fd44a6464f",
+      "nets": {
+        "1": "IO13",
+        "2": "LED2_A"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "D3",
+      "value": "RED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "uuid": "8ef3810a-b4bd-49f3-8e08-ca75bc442e90",
+      "nets": {
+        "1": "GND",
+        "2": "LED3_A"
+      },
+      "pins": {
+        "1": {
+          "name": "K",
+          "type": "passive"
+        },
+        "2": {
+          "name": "A",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "R23",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical",
+      "uuid": "611f06a2-ce8a-490d-bcd2-2aa96c04a53c",
+      "nets": {
+        "1": "IO44",
+        "2": "LED3_A"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "100n",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "uuid": "d60bffba-7571-4632-9082-aa8c88962370",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "10u 10V",
+      "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+      "uuid": "811fc210-085b-4783-8409-15622c5afd67",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "+",
+          "type": "passive"
+        },
+        "2": {
+          "name": "-",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "100n",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "uuid": "3304bc58-b08f-484d-b30e-9962f96d96ba",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      }
+    },
+    {
+      "ref": "H1",
+      "value": "M3",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "uuid": "b35a32ff-e006-4a88-b845-b35c6ea32dfe",
+      "nets": {},
+      "pins": {}
+    },
+    {
+      "ref": "H2",
+      "value": "M3",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "uuid": "66238920-d73a-4a48-a4ca-8aaa507f1da8",
+      "nets": {},
+      "pins": {}
+    },
+    {
+      "ref": "H3",
+      "value": "M3",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "uuid": "46b8d21e-a4f7-4fd3-942c-bb4a4d3c13c7",
+      "nets": {},
+      "pins": {}
+    },
+    {
+      "ref": "H4",
+      "value": "M3",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "uuid": "641d5f78-6b8e-493f-b728-86fb5f92adfa",
+      "nets": {},
+      "pins": {}
+    }
+  ]
+}

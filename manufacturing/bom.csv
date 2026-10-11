@@ -1,0 +1,16 @@
+Reference,Quantity,Part,Footprint or mechanical requirement,Notes
+PCB,1,Compact carrier E1,70 x 80mm 2-layer FR4 1.6mm with top antenna notch,Bare PCB only
+J1-module,1,Waveshare ESP32-S3-Zero-M,18 x 23.5mm; 2x9 pins at 2.54mm; 15.24mm row spacing,USB-C downward; antenna over top notch
+J1-sockets,2,Female socket strip 1x9 2.54mm,Through hole straight ~8.5mm body height,Module underside clears carrier
+DS1,1,CL3641AH common cathode red display,30 x 14mm; 2x6 pins P2.54mm row spacing10.16mm,Decimal points down
+U1,1,TI SN74HC595N,PDIP16 7.62mm rows,HC at 3.3V; notch up; no HCT substitute
+U1-socket,1,DIP16 IC socket,7.62mm rows,Optional but recommended for hand assembly
+Q1-Q4,4,2N3904 NPN,TO-92 inline E-B-C 1.27mm pitch,Flat face toward bottom; verify manufacturer pinout
+R1-R12,12,1k resistor 1/4W 5%,Axial horizontal 7.62mm lead spacing,8 segment and 4 transistor base resistors
+R21-R23,3,1k resistor 1/4W 5%,Axial upright 2.54mm lead spacing,Red LED resistors; insulate folded lead
+R13-R20,8,10k resistor 1/4W 5%,Axial horizontal 7.62mm lead spacing,4 base pull-downs and 4 button pull-ups
+D1-D3,3,Red LED 5mm,2.54mm leads,3mm body also fits; cathode left square pad
+SW1-SW4,4,Two-prong normally-open momentary button,2.54 or 5.08mm pins OR two short wires,Use square signal pad and ONE round GND pad
+C1 C3,2,100nF ceramic >=10V,5mm lead spacing disc <=5mm,C3 decouples U1
+C2,1,10uF electrolytic >=10V,2mm lead spacing body <=5mm,Positive square pad; negative stripe to GND
+H1-H4,4,M3 nylon hardware,3.2mm unplated holes,Optional mounting

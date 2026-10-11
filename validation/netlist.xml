@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\gamev\Downloads\mtglife\compact-cl3641ah\hardware\counter.kicad_sch</source>
+    <date>2026-10-02T17:34:21</date>
+    <tool>Eeschema 10.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Compact S3 / CL3641AH counter</title>
+        <company/>
+        <rev>E1 prototype</rev>
+        <date/>
+        <source>counter.kicad_sch</source>
+        <comment number="1" value="J1: Waveshare ESP32-S3-Zero, 15.24 mm rows. U1: SN74HC595N at 3.3V."/>
+        <comment number="2" value="Q: 1=E, 2=B, 3=C. DS1: common cathode. R: 1/4 W."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="C1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d60bffba-7571-4632-9082-aa8c88962370</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10u 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="C2" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>811fc210-085b-4783-8409-15622c5afd67</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="C3" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3304bc58-b08f-484d-b30e-9962f96d96ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="D1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0e93951-994b-464c-94db-ef512456eaab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="D2" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5afa0f2-3015-4dc0-a549-79cdf3029129</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="D3" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ef3810a-b4bd-49f3-8e08-ca75bc442e90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="DS1">
+      <value>CL3641AH common cathode</value>
+      <footprint>Counter:CL3641AH_30x14_P2.54_R10.16</footprint>
+      <fields>
+        <field name="Footprint">Counter:CL3641AH_30x14_P2.54_R10.16</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="DS1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b873883e-d929-4b4f-bb99-3eb7f17ea9c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="H1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b35a32ff-e006-4a88-b845-b35c6ea32dfe</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="H2" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66238920-d73a-4a48-a4ca-8aaa507f1da8</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="H3" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46b8d21e-a4f7-4fd3-942c-bb4a4d3c13c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="H4" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>641d5f78-6b8e-493f-b728-86fb5f92adfa</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Waveshare ESP32-S3-Zero</value>
+      <footprint>Counter:Waveshare_ESP32_S3_Zero_USB_Down</footprint>
+      <fields>
+        <field name="Footprint">Counter:Waveshare_ESP32_S3_Zero_USB_Down</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="J1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10b832e9-bfe9-45b6-a869-b979f26dcc08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="Q1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffd0bc0c-db7e-43ab-8610-af6c3a0ee116</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="Q2" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27feb125-0a60-4714-aead-e24ae5096f7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="Q3" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0908ef9a-0931-4225-8598-8648bfc12fb4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="Q4" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e8b7410-916d-4cb0-a1d9-51ae1cfb6249</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30fb0e55-43af-4e95-b4d3-32d0b7acd369</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R2" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3a48d0-e391-48f8-8928-70923a01f530</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R3" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57a7b5d1-4b79-4ad5-9b30-1909fb81d9a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R4" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc099da8-9610-4129-b685-8ba78789f763</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R5" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8331f9ca-8a2c-48c9-ba2d-379c5b29dd4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R6" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14cc06dd-8acf-4230-879b-327bd66d138a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R7" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddf46ac8-54fb-471c-a09e-5a7a299fccd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R8" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72ff034c-5dd3-4dcb-8290-306af786d5e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R9" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cdbca45-3572-4645-9fe3-d20792c2ffb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R10" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98c74af4-5f16-4c9d-a45e-dbd9bbe83a72</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R11" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>685df71e-d98e-4258-b15a-7438f3fcfd39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R12" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af09fb77-5f4a-49d7-8042-4c19db2b8ca2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R13" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d3e37fb-b71d-46d2-87b6-781a290ffc94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R14" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>766c3933-61a7-416e-9912-8cb5a6bf657d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R15" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20a9359b-6385-43bd-8164-5f62ed0fc6fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R16" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1fd8a55-bc20-4ce6-bf5e-790c9c766f5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R17" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01102c21-6dde-4290-bd5d-5fc621d75312</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R18" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa986127-0460-4eeb-bc08-9f8908dc56aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R19" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8307391b-9876-445f-8b33-6555204e525d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R20" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951b4855-d365-46ad-a738-79cea63b5e1a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R21" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a134e3f-72c8-481d-8079-a0346fcc6b04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R22" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f90d5d7-0ab6-4a43-93f9-e8fd44a6464f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="R23" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>611f06a2-ce8a-490d-bcd2-2aa96c04a53c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>MINUS two-prong</value>
+      <footprint>Counter:Switch_2wire_2.54_or_5.08</footprint>
+      <fields>
+        <field name="Footprint">Counter:Switch_2wire_2.54_or_5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="SW1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e7c40d-d6ac-47a0-bc42-7ab6ea417b1a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>SELECT two-prong</value>
+      <footprint>Counter:Switch_2wire_2.54_or_5.08</footprint>
+      <fields>
+        <field name="Footprint">Counter:Switch_2wire_2.54_or_5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="SW2" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f61f175d-aabf-428d-a9c9-cb5a79fd49fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW3">
+      <value>PLUS two-prong</value>
+      <footprint>Counter:Switch_2wire_2.54_or_5.08</footprint>
+      <fields>
+        <field name="Footprint">Counter:Switch_2wire_2.54_or_5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="SW3" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a11fbf29-1c57-4a23-833a-c99643435995</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW4">
+      <value>RESOURCE two-prong</value>
+      <footprint>Counter:Switch_2wire_2.54_or_5.08</footprint>
+      <fields>
+        <field name="Footprint">Counter:Switch_2wire_2.54_or_5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="SW4" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a6e46b8-5e82-45eb-8580-47a8b377a07c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SN74HC595N 3V3</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Counter" part="U1" description=""/>
+      <property name="Sheetname" value="counter"/>
+      <property name="Sheetfile" value="counter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f14a060b-ef98-4e52-8a7d-bf13a87959bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Counter" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">10u 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">RED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">RED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">RED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="DS1">
+      <fields>
+        <field name="Reference">DS1</field>
+        <field name="Value">CL3641AH common cathode</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="DP" type="passive"/>
+        <pin num="4" name="C" type="passive"/>
+        <pin num="5" name="G" type="passive"/>
+        <pin num="6" name="DIG4" type="passive"/>
+        <pin num="7" name="B" type="passive"/>
+        <pin num="8" name="DIG3" type="passive"/>
+        <pin num="9" name="DIG2" type="passive"/>
+        <pin num="10" name="F" type="passive"/>
+        <pin num="11" name="A" type="passive"/>
+        <pin num="12" name="DIG1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="H1">
+      <fields>
+        <field name="Reference">H1</field>
+        <field name="Value">M3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Counter" part="H2">
+      <fields>
+        <field name="Reference">H2</field>
+        <field name="Value">M3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Counter" part="H3">
+      <fields>
+        <field name="Reference">H3</field>
+        <field name="Value">M3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Counter" part="H4">
+      <fields>
+        <field name="Reference">H4</field>
+        <field name="Value">M3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Counter" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Waveshare ESP32-S3-Zero</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IO43" type="output"/>
+        <pin num="2" name="IO44" type="output"/>
+        <pin num="3" name="IO13" type="output"/>
+        <pin num="4" name="IO12" type="output"/>
+        <pin num="5" name="IO11" type="input"/>
+        <pin num="6" name="IO10" type="input"/>
+        <pin num="7" name="IO9" type="input"/>
+        <pin num="8" name="IO8" type="input"/>
+        <pin num="9" name="IO7" type="output"/>
+        <pin num="10" name="IO6" type="output"/>
+        <pin num="11" name="IO5" type="output"/>
+        <pin num="12" name="IO4" type="output"/>
+        <pin num="13" name="IO3" type="passive"/>
+        <pin num="14" name="IO2" type="output"/>
+        <pin num="15" name="IO1" type="output"/>
+        <pin num="16" name="3V3" type="power_out"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="VBUS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="Q2">
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="Q3">
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="Q4">
+      <fields>
+        <field name="Reference">Q4</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R21">
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R22">
+      <fields>
+        <field name="Reference">R22</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R23">
+      <fields>
+        <field name="Reference">R23</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">MINUS two-prong</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="SW2">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">SELECT two-prong</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="SW3">
+      <fields>
+        <field name="Reference">SW3</field>
+        <field name="Value">PLUS two-prong</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="SW4">
+      <fields>
+        <field name="Reference">SW4</field>
+        <field name="Value">RESOURCE two-prong</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Counter" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">SN74HC595N 3V3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="output"/>
+        <pin num="2" name="QC" type="output"/>
+        <pin num="3" name="QD" type="output"/>
+        <pin num="4" name="QE" type="output"/>
+        <pin num="5" name="QF" type="output"/>
+        <pin num="6" name="QG" type="output"/>
+        <pin num="7" name="QH" type="output"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="QH_SERIAL" type="output"/>
+        <pin num="10" name="SRCLR_N" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="OE_N" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Counter">
+      <uri>${KIPRJMOD}/Counter.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="3V3_16" pintype="power_out"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SRCLR_N_10" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+    </net>
+    <net code="2" name="/BASE1" class="Default">
+      <node ref="Q1" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/BASE2" class="Default">
+      <node ref="Q2" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/BASE3" class="Default">
+      <node ref="Q3" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/BASE4" class="Default">
+      <node ref="Q4" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/DIG1" class="Default">
+      <node ref="DS1" pin="12" pinfunction="DIG1_12" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="7" name="/DIG2" class="Default">
+      <node ref="DS1" pin="9" pinfunction="DIG2_9" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="8" name="/DIG3" class="Default">
+      <node ref="DS1" pin="8" pinfunction="DIG3_8" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/DIG4" class="Default">
+      <node ref="DS1" pin="6" pinfunction="DIG4_6" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C_3" pintype="passive"/>
+    </net>
+    <net code="10" name="/DRV_A" class="Default">
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="QA_15" pintype="output"/>
+    </net>
+    <net code="11" name="/DRV_B" class="Default">
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="QB_1" pintype="output"/>
+    </net>
+    <net code="12" name="/DRV_C" class="Default">
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="QC_2" pintype="output"/>
+    </net>
+    <net code="13" name="/DRV_D" class="Default">
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="QD_3" pintype="output"/>
+    </net>
+    <net code="14" name="/DRV_DP" class="Default">
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="QH_7" pintype="output"/>
+    </net>
+    <net code="15" name="/DRV_E" class="Default">
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="QE_4" pintype="output"/>
+    </net>
+    <net code="16" name="/DRV_F" class="Default">
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="QF_5" pintype="output"/>
+    </net>
+    <net code="17" name="/DRV_G" class="Default">
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="QG_6" pintype="output"/>
+    </net>
+    <net code="18" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="GND_17" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="OE_N_13" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND_8" pintype="passive"/>
+    </net>
+    <net code="19" name="/IO1" class="Default">
+      <node ref="J1" pin="15" pinfunction="IO1_15" pintype="output"/>
+      <node ref="U1" pin="11" pinfunction="SRCLK_11" pintype="input"/>
+    </net>
+    <net code="20" name="/IO2" class="Default">
+      <node ref="J1" pin="14" pinfunction="IO2_14" pintype="output"/>
+      <node ref="U1" pin="12" pinfunction="RCLK_12" pintype="input"/>
+    </net>
+    <net code="21" name="/IO4" class="Default">
+      <node ref="J1" pin="12" pinfunction="IO4_12" pintype="output"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/IO5" class="Default">
+      <node ref="J1" pin="11" pinfunction="IO5_11" pintype="output"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="23" name="/IO6" class="Default">
+      <node ref="J1" pin="10" pinfunction="IO6_10" pintype="output"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="24" name="/IO7" class="Default">
+      <node ref="J1" pin="9" pinfunction="IO7_9" pintype="output"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="/IO8" class="Default">
+      <node ref="J1" pin="8" pinfunction="IO8_8" pintype="input"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="26" name="/IO9" class="Default">
+      <node ref="J1" pin="7" pinfunction="IO9_7" pintype="input"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="27" name="/IO10" class="Default">
+      <node ref="J1" pin="6" pinfunction="IO10_6" pintype="input"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="28" name="/IO11" class="Default">
+      <node ref="J1" pin="5" pinfunction="IO11_5" pintype="input"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="29" name="/IO12" class="Default">
+      <node ref="J1" pin="4" pinfunction="IO12_4" pintype="output"/>
+      <node ref="R21" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="30" name="/IO13" class="Default">
+      <node ref="J1" pin="3" pinfunction="IO13_3" pintype="output"/>
+      <node ref="R22" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="31" name="/IO43" class="Default">
+      <node ref="J1" pin="1" pinfunction="IO43_1" pintype="output"/>
+      <node ref="U1" pin="14" pinfunction="SER_14" pintype="input"/>
+    </net>
+    <net code="32" name="/IO44" class="Default">
+      <node ref="J1" pin="2" pinfunction="IO44_2" pintype="output"/>
+      <node ref="R23" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="33" name="/LED1_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="34" name="/LED2_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="35" name="/LED3_A" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="36" name="/SEG_A" class="Default">
+      <node ref="DS1" pin="11" pinfunction="A_11" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="37" name="/SEG_B" class="Default">
+      <node ref="DS1" pin="7" pinfunction="B_7" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="38" name="/SEG_C" class="Default">
+      <node ref="DS1" pin="4" pinfunction="C_4" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="39" name="/SEG_D" class="Default">
+      <node ref="DS1" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="40" name="/SEG_DP" class="Default">
+      <node ref="DS1" pin="3" pinfunction="DP_3" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="41" name="/SEG_E" class="Default">
+      <node ref="DS1" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="42" name="/SEG_F" class="Default">
+      <node ref="DS1" pin="10" pinfunction="F_10" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="43" name="/SEG_G" class="Default">
+      <node ref="DS1" pin="5" pinfunction="G_5" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(J1-IO3-Pad13)" class="Default">
+      <node ref="J1" pin="13" pinfunction="IO3_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-VBUS-Pad18)" class="Default">
+      <node ref="J1" pin="18" pinfunction="VBUS_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-QH_SERIAL-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="QH_SERIAL_9" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,9 @@
+Test project C:/Users/gamev/Downloads/mtglife/compact-cl3641ah/firmware/tests/build
+    Start 1: counter_behavior
+1/2 Test #1: counter_behavior .................   Passed    0.12 sec
+    Start 2: shift_register_hardware_model
+2/2 Test #2: shift_register_hardware_model ....   Passed    0.07 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.21 sec

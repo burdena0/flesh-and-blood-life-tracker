@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Counter")(type "KiCad")(uri "${KIPRJMOD}/Counter.kicad_sym")(options "")(descr "Carrier connectivity symbols")))

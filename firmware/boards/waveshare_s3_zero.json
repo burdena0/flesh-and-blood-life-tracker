@@ -1,0 +1,15 @@
+{
+  "name": "Waveshare ESP32-S3-Zero 4MB flash (counter E1)",
+  "vendor": "Waveshare",
+  "url": "https://docs.waveshare.com/ESP32-S3-Zero",
+  "build": {
+    "mcu": "esp32s3", "core": "esp32", "variant": "esp32s3",
+    "f_cpu": "240000000L", "f_flash": "80000000L", "flash_mode": "dio",
+    "hwids": [["0x303A", "0x1001"]]
+  },
+  "frameworks": ["espidf"],
+  "connectivity": ["wifi", "bluetooth"],
+  "upload": {"flash_size": "4MB", "maximum_size": 4194304,
+    "maximum_ram_size": 327680, "require_upload_port": true, "speed": 460800},
+  "debug": {"default_tool": "esp-builtin", "onboard_tools": ["esp-builtin"], "openocd_target": "esp32s3.cfg"}
+}

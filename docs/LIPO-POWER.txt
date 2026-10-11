@@ -1,0 +1,54 @@
+EXTERNAL USB-C LiPo POWER FOR THE COMPACT S3-ZERO CARRIER
+
+This is an external power accessory for counter.kicad_pcb. The PCB retains
+the Waveshare ESP32-S3-Zero and takes power through its USB socket.
+It has no charger or boost converter of its own; J1 VBUS is unconnected.
+
+PARTS SELECTED IN THE SHOPPING LIST
+1. EEMB LP103454 protected 3.7V 2000mAh LiPo, JST 2.0mm, one battery:
+   https://www.amazon.com/dp/B08214DJLJ
+2. HiLetgo TP4056 Type-C charger with protection, use one board:
+   https://www.amazon.com/dp/B07PKND8KG
+3. Newzoll fixed 5V / 500mA USB boost module, use one board:
+   https://www.amazon.com/dp/B01MQG3T7V
+4. elechawk JST-PH 2.0mm pigtail pairs, use for removable connections:
+   https://www.amazon.com/dp/B07NWD5NTN
+5. USB-A to USB-C cable for the S3-Zero; USB-A to USB-C charging cable
+   and a regulated 5V USB wall supply rated at least 1A.
+
+CONNECTIONS (assemble with battery and USB disconnected)
+- Battery positive -> TP4056 B+; battery negative -> TP4056 B-.
+- TP4056 OUT+ -> removable connector -> boost IN+.
+- TP4056 OUT- -> same removable connector -> boost IN-.
+- Boost USB-A output -> USB cable -> ESP32 DevKit USB input.
+- Use the protected OUT pads for the boost input, not the battery B pads.
+- Do not connect raw battery voltage to 3V3, VIN or the raw display.
+- Confirm polarity with a meter; compatible JST plugs can have opposite
+  red/black wire placement. Match electrical + and -, not wire colors alone.
+- Insulate all solder joints and the backs of both modules; keep the battery
+  clear of PCB pins and sharp edges. No module mounting footprint is assumed.
+
+CHARGING
+Unplug the removable connection between the TP4056 and boost board BEFORE
+connecting USB-C power to the charger. Leave the battery connected to B+/B-.
+The TP4056 module does not provide load sharing. The counter must be off and
+the boost board disconnected from OUT while charging. After charging, remove
+the charging USB cable and reconnect the boost board for play.
+When programming, unplug the DevKit from the boost USB output and connect
+its USB socket to the computer instead. No firmware changes are needed.
+
+VERIFICATION STATUS
+The battery listing specifies 4.2V charging and up to 2A maximum charge
+current, compatible with the selected charger's 1A nominal maximum. The
+boost's published output rating is 5V/500mA. This is a specification-based
+selection for the current counter, without added motors or other loads.
+No physical fit, battery runtime, temperature or startup testing has been
+performed. Check the boost output voltage before plugging in the ESP32 and
+test one assembled prototype before building a batch.
+
+Sources for component ratings and behavior:
+https://eemb.store/products/lp103454
+https://www.amazon.com/dp/B08214DJLJ
+https://www.amazon.com/dp/B07PKND8KG
+https://www.amazon.com/dp/B01MQG3T7V
+https://www.makerfocus.com/collections/battery/products/10pcs-tp4056-charging-module-5v-micro-usb-1a-18650-lithium-battery-charging-board

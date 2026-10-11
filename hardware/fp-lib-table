@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Counter")(type "KiCad")(uri "${KIPRJMOD}/Counter.pretty")(options "")(descr "Compact counter custom footprints")))

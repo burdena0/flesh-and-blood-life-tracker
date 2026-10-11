@@ -1,0 +1,38 @@
+PASS: KiCad DRC: zero violations
+PASS: KiCad DRC: zero unconnected_items
+PASS: KiCad DRC: zero schematic_parity
+PASS: KiCad ERC: zero violations
+PASS: 44 footprints, including 4 mounting holes, 3 capacitors and one HC595
+PASS: 2 copper layers / 1.6 mm thickness
+PASS: 70 x 80 mm closed outline with 10 x 5.5 mm antenna notch
+PASS: antenna copper keepout retained
+PASS: J1 IO3 unused
+PASS: J1 VBUS unused
+PASS: manufacturer S3-Zero header map and 18 x 23.5 mm body / 15.24 mm rows
+PASS: CL3641AH footprint and 30 x 14 mm fabrication body
+PASS: display pad numbering, 2.54 mm pitch and 10.16 mm rows
+PASS: HC595 cascade output unused
+PASS: HC595 pin mapping and eight independent segment current-limit resistors
+PASS: four separate 2N3904 digit sinks with 1k base resistors and 10k pull-downs
+PASS: four pulled-up two-prong buttons, three red LED branches and all decoupling nets
+PASS: display centered under LED bank; driver columns and button column aligned
+PASS: all schematic netlist pads agree with final PCB
+PASS: coordinate export contains every final PCB pad exactly once
+PASS: firmware GPIOs, ESP32-S3 target, 4MB flash and USB console match hardware
+PASS: fresh native ESP-IDF/FreeRTOS build succeeded
+PASS: fresh game and 256-pattern shift-register host tests passed
+PASS: normal ESP32 breadboard connectivity and pin map verified separately
+PASS: breadboard uses CL3641AH E/G rows and original ESP32, no shift register
+PASS: breadboard has no compact-PCB shift chip
+PASS: board contains routed copper
+PASS: fabrication layer .gtl exists
+PASS: fabrication layer .gbl exists
+PASS: fabrication layer .gts exists
+PASS: fabrication layer .gbs exists
+PASS: fabrication layer .gto exists
+PASS: fabrication layer .gbo exists
+PASS: fabrication layer .gm1 exists
+PASS: counter-PTH.drl exists
+PASS: counter-NPTH.drl exists
+LIMIT: no physical fit, powered-device, battery or RF tests performed.
+INFO: PCB SHA256 ef9d1dba631d5bae8fef6e7e261775df11890fc41da6353b0ed46286b8fbc999
